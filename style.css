@@ -1,0 +1,75 @@
+body {
+    background:#f9e933;
+  }
+  header,main,footer{
+    min-width: 855px;
+  }
+  header .container, main .container, footer .container{
+    max-width: 855px;
+    margin: auto;
+  }
+  header{
+      background: white;
+      overflow: hidden; /*If content is bigger than its set dimensions 
+                          Content that overflows is hidden */
+  }
+  header h1{
+    float: left;
+    width: 570px;
+    font-family:"Audiowide", Helvetica, sans-serif;
+    font-size: xxx-large;
+  }
+  header nav{
+    float: right;
+    width: 285px ;
+  }
+  main{
+    background: white;
+    overflow: auto;
+    
+  }
+  main h2 {
+    font-size: x-large;
+    font-family: Helvetica, sans-serif;;
+  }
+  main h3{
+    font-size: large;
+    font-family: Helvetica, sans-serif;;
+  }
+  main .left{
+    float: left;
+    width: 570px;
+  }
+  p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h5{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  li{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ nav a{
+    font-size: large;
+    font-family:Tahoma, sans-serif;
+  }
+  main .right {
+    float: right;
+    width: 285px;
+  }
+  footer .left{
+    float: left;
+    width: 570px;
+  }
+footer .sitemap{
+    float: right;
+    width: 285px; 
+}
+ 
+
+    
+    
+  
